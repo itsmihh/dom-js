@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master DOM Manipulation</title>
+</head>
+<body>
+    <style>
+        #main-heading {
+            font-size: 2.5em;
+        }
+
+        .list-items {
+            list-style: none;
+            font-size: 2em;
+        }
+
+        .hidden-content {
+            display: none;
+        }
+
+        .hidden-content.reveal-btn {
+            display: block;
+        }
+        .button {
+            display: block;
+        }
+    </style>
+    <div class="container">
+        <h1 id="main-heading">Favorite Movie Franchise</h1>
+        <ul>
+            <li class="list-items">
+                <span>Neo</span>
+                The Matrix</li>
+            <li class="list-items">Star Wars</li>
+            <li class="list-items">Harry Potter</li>
+            <li class="list-items">Lord of the Rings</li>
+            <li class="list-items">Marvel</li>
+        </ul>
+    </div>
+
+    <h1>Event Listeners</h1>
+    <div class="container">
+        <div class="boxes box-1">
+            <h3 id="heading">Example 1</h3>
+            <button onclick="alert('I Love JavaScript')">enter</button>
+        </div>
+
+        <div class="boxes box-2">
+            <h3 id="heading">Example 2</h3>
+            <button class="btn-2">enter</button>
+        </div>
+
+        <div class="boxes box-3">
+            <h3 id="heading">Example 3</h3>
+            <button>enter</button>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <button class="reveal-btn boxes">Reveal More</button>
+
+        <div class="hidden-content boxes">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam ad enim perferendis tempora qui aperiam, placeat atque. Iste, mollitia blanditiis deleniti ex delectus accusamus eius nihil repellendus magni deserunt reprehenderit.
+        </div>
+    </div>
+
+
+    <div class="div2">
+        2
+        <div class="div1">
+            1
+            <a href="" class="button">Click</a>
+        </div>
+    </div>
+
+    <ul id="sports">
+        <li id="football">football</li>
+        <li id="basketball">basketball</li>
+        <li id="boxing">boxing</li>
+        <li id="tennis">tennis</li>
+        <li id="golf">golf</li>
+    </ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
