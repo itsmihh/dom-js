@@ -1,22 +1,5 @@
-# Curso de DOM com JavaScript
+# Projetos de Manipulação do DOM com JavaScript
 
-## What is the DOM?
-* Document Object Model
-* Use it to Manipulate Content, Style and Structure
-* Is one of the most unique and useful tools of JavaScript
+Este repositório reúne os projetos que desenvolvi acompanhando o vídeo [JavaScript DOM Manipulation – Full Course for Beginners](https://youtu.be/5fb2aPlgoys?si=CZI1dllBzB4qKiSa)
 
-
-### Selecting Elements
-* getElementById()
-* getElementByClassName()
-* getElementByTagName()
-* querySelector()
-* querySelectorAll()
-
-
-### Styling an Element
-`   const title = document.querySelector('#main-heading');
-    title.style.color = 'red'; ´
-
-
-### Creating Elements
+Assisti ao vídeo com o objetivo de melhorar minhas habilidades em manipulação do DOM com JavaScript. Todos os projetos foram feitos acompanhando o passo a passo do vídeo.
